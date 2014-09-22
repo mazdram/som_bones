@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Home - MMI
+ Template Name: Homepage - MMI
  *
  * This is your custom page template. You can create as many of these as you need.
  * Simply name is "page-whatever.php" and in add the "Template Name" title at the
@@ -15,12 +15,14 @@
 
 <?php get_header(); ?>
 
+<?php 
+    echo do_shortcode("[metaslider id=36]"); 
+?>
 			<div id="content">
-
 
 				<div id="inner-content" class="wrap cf">
 
-						<div id="main" class="m-all t-all d-all cf" role="main">
+						<div id="main" class="m-all t-3of3 d-7of7 cf" role="main">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -30,26 +32,13 @@
 
 									<h1 class="page-title"><?php the_title(); ?></h1>
 
-
 								</header>
 
 								<section class="entry-content cf" itemprop="articleBody">
 									<?php
 										// the content (pretty self explanatory huh)
 										the_content();
-
-										/*
-										 * Link Pages is used in case you have posts that are set to break into
-										 * multiple pages. You can remove this if you don't plan on doing that.
-										 *
-										 * Also, breaking content up into multiple pages is a horrible experience,
-										 * so don't do it. While there are SOME edge cases where this is useful, it's
-										 * mostly used for people to get more ad views. It's up to you but if you want
-										 * to do it, you're wrong and I hate you. (Ok, I still love you but just not as much)
-										 *
-										 * http://gizmodo.com/5841121/google-wants-to-help-you-avoid-stupid-annoying-multiple-page-articles
-										 *
-										*/
+				
 										wp_link_pages( array(
 											'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'bonestheme' ) . '</span>',
 											'after'       => '</div>',
@@ -58,7 +47,11 @@
 										) );
 									?>
 								</section>
-
+								
+								
+							
+								
+								
 
 								<footer class="article-footer">
 
@@ -66,7 +59,6 @@
 
 								</footer>
 
-								
 
 							</article>
 
@@ -88,10 +80,41 @@
 
 						</div>
 
-			
 
 				</div>
-
+				
+				<section class ="full-breakout">
+				<div class="wrap cf">
+				<section class="entry-content cf" align="left">
+							
+								<h2>Apply to Our Graduate Program</h2>
+								<p>The department of Molecular Microbiology & Immunology (MMI), in partnership with the faculty from the department of Veterinary Pathobiology (VPB), now called Molecular Pathogenesis and Therapeutics Graduate Program (MPT), offers a comprehensive graduate program leading to the Doctor of Philosophy (Ph.D) degree.</p>
+								<button class="gold-btn">View Speakers</button>
+				</section>		
+					</div>
+				
+						</section>
+				
+						<section class ="full-breakout-img">
+						<div class="wrap cf">
+								<section class="entry-content cf">
+								<h2>Discovering a Needle in a Haystack for Muscular Dystrophy Patients</h2>
+								<p>Research on significant genetic sequence could lead to treatments for deadly hereditary disease</p>
+								<button class="gold-btn">Read More</button>
+						</section>
+							</div>
+						</section>
+						
+						
+						<section class ="full-breakout">
+							<div class="wrap cf">
+								<section class="entry-content cf" align="right">
+								<h2>Upcoming Seminar Speakers</h2>
+								<p>The department of Molecular Microbiology and Immunology (MMI), in partnership with the faculty from the department of Veterinary Pathobiology (VPB), now called Molecular Pathogenesis and Therapeutics Graduate Program (MPT), offers a comprehensive graduate program leading to the Doctor of Philosophy (Ph.D) degree.</p>
+								 <button class="gold-btn">Read More</button>
+								</section>
+							</div>
+						</section>
 			</div>
 
 
