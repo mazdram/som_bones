@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+
+<div class="breadcrumb_wrp">						
+<?php the_breadcrumb(); ?>
+</div>
 			<div id="content">
 
 				<div id="inner-content" class="wrap cf">

@@ -23,6 +23,37 @@ body {
 	background-color: $gray;
   -webkit-font-smoothing: antialiased;
 }
+sdf
+
+ /* Breadcrumbs */
+
+.breadcrumbs {
+    list-style: none;
+    margin: 10px 0;
+    overflow: hidden;
+    li {
+        float: left;
+        margin-right: 10px;
+        font-size: .9em;
+        a {
+            text-decoration: none;
+            color: $gold;
+            &:hover {
+                color: darken($gold,15%);
+            }
+        }
+        separator {
+            font-size: .9em;
+        }
+    }
+}
+
+
+.breadcrumb_wrp {
+			   padding-left:2em;
+	    	
+ 
+     	}
 
 /********************
 WORDPRESS BODY CLASSES
