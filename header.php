@@ -46,13 +46,15 @@
 			<header class="header" role="banner">
 
 				<div id="inner-header" class="wrap cf">
- <?php the_widget( 'WP_Widget_Search', $instance, $args ); ?> 
+												
+					
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-
-					<?php // if you'd like to use the site description you can un-comment it below ?>
-					<?php bloginfo('description'); ?>
-
+					<div class="m-all t-1of2 d-1of2 cf">
+					<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="http://localhost/SOM_3.0/content/uploads/2014/09/schoolOfMedicineLogo@2x.png"></a>
+				</div>
+					<div class="m-all t-1of2 d-1of2 cf">
+					<p id="description"><a href="<?php echo home_url(); ?>"><?php bloginfo('description'); ?></a></p>
+				</div>
 
 					<nav role="navigation">
 						<?php wp_nav_menu(array(
