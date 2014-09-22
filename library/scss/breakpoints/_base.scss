@@ -23,7 +23,34 @@ body {
 	background-color: $gray;
   -webkit-font-smoothing: antialiased;
 }
-sdf
+
+ /* Breakout w/o image placed outside the wrapper */	
+.full-breakout	 {
+	margin: 1em 0em 5em 0em;
+
+	
+	p, h2 {
+		color: $text-color;
+	}
+	
+	.right {
+		text-align: right;
+	}
+}	
+	
+ /* Breakout WITH image placed outside the wrapper */	
+.full-breakout-img	 {
+	text-align: center;
+	margin: 2em auto;
+	padding: 4em 0;
+	background-image:url(../../../../../content/uploads/2014/09/breakout_sequence.jpg);
+	
+	p, h2 {
+		color: $white;
+	}
+	
+}
+
 
  /* Breadcrumbs */
 
@@ -51,9 +78,17 @@ sdf
 
 .breadcrumb_wrp {
 			   padding-left:2em;
-	    	
- 
      	}
+
+ /* Drop cap */
+.dropcap { 
+  float: left; 
+  font-size: 75px; 
+  line-height: 60px; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 3px; 
+}     	
 
 /********************
 WORDPRESS BODY CLASSES

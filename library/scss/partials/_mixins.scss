@@ -71,3 +71,27 @@ probably best not to use it. I mean, were you going to anyway? */
 }
 
 
+
+
+/*********************
+REPLACING TEXT WITH AN IMAGE
+*********************/
+
+/* @include box-sizing(border-box); */
+/* NOTE: value of "padding-box" is only supported in Gecko. So
+probably best not to use it. I mean, were you going to anyway? */
+@mixin hide-text{
+    overflow:hidden;
+    text-indent:-9000px;
+    display:block;
+}
+
+@mixin center-block { display: block; margin-left: auto; margin-right: auto; }
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
