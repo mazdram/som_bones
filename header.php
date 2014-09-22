@@ -39,19 +39,19 @@
 
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body <?php body_class(); ?>
 
 		<div id="container">
 
 			<header class="header" role="banner">
 
 				<div id="inner-header" class="wrap cf">
-
+ <?php the_widget( 'WP_Widget_Search', $instance, $args ); ?> 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
-					<?php // bloginfo('description'); ?>
+					<?php bloginfo('description'); ?>
 
 
 					<nav role="navigation">
