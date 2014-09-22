@@ -232,6 +232,7 @@ HEADER STYLES
 #description a {
 	text-decoration: none;
 	font-size: 1.75em;
+	margin: 0px;
 	color: $text-color;
 		&:hover {
 			color:lighten($text-color,20%);

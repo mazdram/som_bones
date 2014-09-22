@@ -46,8 +46,8 @@
 			<header class="header" role="banner">
 
 				<div id="inner-header" class="wrap cf">
-												
-					
+
+				
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<div class="m-all t-1of2 d-1of2 cf">
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="http://localhost/SOM_3.0/content/uploads/2014/09/schoolOfMedicineLogo@2x.png"></a>
@@ -55,6 +55,7 @@
 					<div class="m-all t-1of2 d-1of2 cf">
 					<p id="description"><a href="<?php echo home_url(); ?>"><?php bloginfo('description'); ?></a></p>
 				</div>
+		
 
 					<nav role="navigation">
 						<?php wp_nav_menu(array(

@@ -1419,6 +1419,7 @@ HEADER STYLES
 #description a {
   text-decoration: none;
   font-size: 1.75em;
+  margin: 0px;
   color: #5c6b80; }
   #description a:hover {
     color: #929eb0; }
