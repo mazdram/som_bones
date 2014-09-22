@@ -911,26 +911,25 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, .comment-reply-link, #submit {
+.gold-btn {
   display: inline-block;
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #fff;
-  font-size: 0.9em;
-  font-size: 34px;
-  line-height: 34px;
+  font-size: 0.7em;
+  font-size: 14px;
+  line-height: 30px;
   font-weight: normal;
-  padding: 0 24px;
-  border-radius: 4px;
+  padding: 6px 12px;
   border: 0;
   cursor: pointer;
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
-  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+  .gold-btn:hover, .gold-btn:focus {
     color: #fff;
     text-decoration: none; }
-  .blue-btn:active, .comment-reply-link:active, #submit:active {
+  .gold-btn:active {
     top: 1px; }
 
 /*
@@ -938,12 +937,12 @@ An example button.
 You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
-.blue-btn, .comment-reply-link, #submit {
-  background-color: #2980b9; }
-  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
-    background-color: #2574a8; }
-  .blue-btn:active, .comment-reply-link:active, #submit:active {
-    background-color: #2472a4; }
+.gold-btn {
+  background-color: #e8a515; }
+  .gold-btn:hover, .gold-btn:focus {
+    background-color: #d19413; }
+  .gold-btn:active {
+    background-color: #d19413; }
 
 /******************************************************************
 Site Name:
@@ -1238,8 +1237,8 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: University of Missouri School of Medicine
+Author: Mike Mazdra
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -1711,19 +1710,6 @@ COMMENT STYLES
   line-height: 1.5em; }
 
 /* end .commentlist .comment_content */
-/* comment reply link */
-.comment-reply-link {
-  font-size: 0.9em;
-  float: right; }
-
-/* end .commentlist .comment-reply-link */
-/* edit comment link */
-.comment-edit-link {
-  font-style: italic;
-  margin: 0 7px;
-  text-decoration: none;
-  font-size: 0.9em; }
-
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
@@ -1748,11 +1734,6 @@ COMMENT FORM STYLES
   padding: 1.5em;
   background-color: #f8f9fa;
   font-size: 0.9em; }
-
-/* comment submit button */
-#submit {
-  float: right;
-  font-size: 1em; }
 
 /* comment form title */
 #comment-form-title {
@@ -1800,6 +1781,29 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+/* SOCIAL LINKS */
+ul.social-links li {
+  list-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  ul.social-links li a {
+    display: block;
+    float: right;
+    width: 65px;
+    height: 65px;
+    text-indent: -999px; }
+
+/* Add more icons here*/
+.twitter {
+  background: url("img/twitter.png") no-repeat; }
+
+.facebook {
+  background: url("img/facebook.png") no-repeat; }
+
+.youtube {
+  background: url("img/youtube.png") no-repeat; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's

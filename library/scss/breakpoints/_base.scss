@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: University of Missouri School of Medicine
+Author: Mike Mazdra
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -797,25 +797,7 @@ COMMENT STYLES
 
 	} /* end .commentlist .comment_content */
 
-	/* comment reply link */
-	.comment-reply-link {
-		@extend .blue-btn;
-		font-size: 0.9em;
-		float: right;
-
-		&:hover,
-		&:focus {
-		}
-
-	} /* end .commentlist .comment-reply-link */
-
-	/* edit comment link */
-	.comment-edit-link {
-		font-style: italic;
-		margin: 0 7px;
-		text-decoration: none;
-		font-size: 0.9em;
-	}
+	
 
 
 
@@ -853,12 +835,7 @@ COMMENT FORM STYLES
 		font-size: 0.9em;
 	}
 
-	/* comment submit button */
-	#submit {
-		@extend .blue-btn;
-		float: right;
-		font-size: 1em;
-	}
+	
 
 	/* comment form title */
 	#comment-form-title {
@@ -952,3 +929,14 @@ FOOTER STYLES
 
 
 	.copyright {}
+
+/* SOCIAL LINKS */
+ul.social-links li {list-style:none;@include center-block;
+	a {display:block;float:right;width:65px;height:65px; text-indent:-999px;
+	}
+}
+/* Add more icons here*/
+$icons:(twitter,facebook,youtube);
+@each $social in $icons {
+	.#{$social} {background:url('img/#{$social}.png') no-repeat;}
+}	
