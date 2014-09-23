@@ -44,11 +44,14 @@
 		<div id="container">
 
 			<header class="header" role="banner">
-
-				<div id="inner-header" class="wrap cf">
- 					<div class="m-all t-all d-all cf">
-					asdff
+<div id="masthead" class="m-all t-all d-all cf">
+					<ul>
+						<li id="active"><a href="#">MU School of Medicine</a></li>
+						<li><a href="#">MU Health Care</a></li>
+					</ul>
 				</div>
+				<div id="inner-header" class="wrap cf">
+ 					
 				
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<div id="logowrap" class="m-all t-1of2 d-1of2 cf">

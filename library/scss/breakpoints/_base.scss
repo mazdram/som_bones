@@ -225,7 +225,7 @@ HEADER STYLES
 }
 
 	#logo {
-		width:200px;
+		width:220px;
 
 		a {
 			color: $white;
@@ -237,14 +237,39 @@ HEADER STYLES
 
 #description a {
 	text-decoration: none;
-	font-size: 1.75em;
+	font-size: 1em;
 	margin: 0px;
-	color: $text-color;
+	color:lighten($text-color,40%);
 		&:hover {
-			color:lighten($text-color,10%);
+			color:lighten($text-color,20%);
 		}
 }	
 
+#masthead {
+max-height: 66px;
+background-color: lighten($black,10%);
+
+ul {padding-right: 25px;text-align: right;	margin:0;
+
+li {
+	display: inline;
+	padding-right: 15px;
+	list-style-type: none;
+	font-size: .75em;
+
+		a {text-decoration: none;
+			color:lighten($text-color,80%);
+				&:hover {
+					color:$gold;
+				}
+
+			}	
+		}
+	}
+}
+#active a {
+				color:$gold;
+			}
 /*********************
 NAVIGATION STYLES
 *********************/

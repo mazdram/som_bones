@@ -265,6 +265,17 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER STYLES
 *********************/
+#logo {
+  width: 300px; }
+  #logo a {
+    color: #fff; }
+
+#description a {
+  text-decoration: none;
+  font-size: 1.75em;
+  margin: 0px;
+  color: #5c6b80; }
+
 /*********************
 NAVIGATION STYLES
 *********************/

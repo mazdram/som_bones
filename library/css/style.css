@@ -1493,7 +1493,7 @@ HEADER STYLES
   background-color: #313131; }
 
 #logo {
-  width: 200px; }
+  width: 220px; }
   #logo a {
     color: #fff; }
 
@@ -1502,11 +1502,32 @@ HEADER STYLES
 
 #description a {
   text-decoration: none;
-  font-size: 1.75em;
+  font-size: 1em;
   margin: 0px;
-  color: #5c6b80; }
+  color: #cdd3db; }
   #description a:hover {
-    color: #74849b; }
+    color: #929eb0; }
+
+#masthead {
+  max-height: 66px;
+  background-color: #4b4b4b; }
+  #masthead ul {
+    padding-right: 25px;
+    text-align: right;
+    margin: 0; }
+    #masthead ul li {
+      display: inline;
+      padding-right: 15px;
+      list-style-type: none;
+      font-size: .75em; }
+      #masthead ul li a {
+        text-decoration: none;
+        color: white; }
+        #masthead ul li a:hover {
+          color: #eeb742; }
+
+#active a {
+  color: #eeb742; }
 
 /*********************
 NAVIGATION STYLES
@@ -1926,6 +1947,17 @@ you can add resource intensive styles.
   /*********************
   HEADER STYLES
   *********************/
+  #logo {
+    width: 300px; }
+    #logo a {
+      color: #fff; }
+
+  #description a {
+    text-decoration: none;
+    font-size: 1.75em;
+    margin: 0px;
+    color: #5c6b80; }
+
   /*********************
   NAVIGATION STYLES
   *********************/

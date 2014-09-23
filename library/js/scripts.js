@@ -47,7 +47,6 @@ var timeToWaitForLast = 100;
  * remove the comments.
  *
  *
- *
  * If we want to only do it on a certain page, we can setup checks so we do it
  * as efficient as possible.
  *

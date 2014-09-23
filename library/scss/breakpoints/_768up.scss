@@ -33,7 +33,20 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+	#logo {
+		width:300px;
+
+		a {
+			color: $white;
+		}
+	}
+
+#description a {
+	text-decoration: none;
+	font-size: 1.75em;
+	margin: 0px;
+	color: #5c6b80;
+}	
 
 /*********************
 NAVIGATION STYLES
