@@ -89,7 +89,7 @@
 							
 								<h2>Apply to Our Graduate Program</h2>
 								<p>The department of Molecular Microbiology & Immunology (MMI), in partnership with the faculty from the department of Veterinary Pathobiology (VPB), now called Molecular Pathogenesis and Therapeutics Graduate Program (MPT), offers a comprehensive graduate program leading to the Doctor of Philosophy (Ph.D) degree.</p>
-								<button class="gold-btn">View Speakers</button>
+								<a href="graduate-program/"><button class="gold-btn">View Speakers</button></a>
 				</section>		
 					</div>
 				

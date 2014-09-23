@@ -46,7 +46,7 @@
 			<header class="header" role="banner">
 
 				<div id="inner-header" class="wrap cf">
-
+ 
 				
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<div class="m-all t-1of2 d-1of2 cf">

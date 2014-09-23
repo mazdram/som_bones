@@ -15,7 +15,7 @@ require_once( 'library/bones.php' );
 require_once( 'library/custom-post-type.php' );
 
 // CUSTOMIZE THE WORDPRESS ADMIN (off by default)
-// require_once( 'library/admin.php' );
+require_once( 'library/admin.php' );
 
 /*********************
 LAUNCH BONES
@@ -252,6 +252,7 @@ function the_breadcrumb() {
     elseif (is_search()) {echo"<li>Search Results"; echo'</li>';}
     echo '</ul>';
 }
+
 
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

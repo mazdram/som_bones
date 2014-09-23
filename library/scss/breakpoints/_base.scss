@@ -58,15 +58,16 @@ body {
     list-style: none;
     margin: 10px 0;
     overflow: hidden;
+    padding-left: 1.3em;
     li {
         float: left;
         margin-right: 10px;
         font-size: .9em;
         a {
             text-decoration: none;
-            color: $gold;
+            color: darken($gold,15%);
             &:hover {
-                color: darken($gold,15%);
+                color: darken($gold,20%);
             }
         }
         separator {
@@ -187,7 +188,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-size: 2.5em;
+	font-size: 2em;
 	line-height: 1.333em;
 }
 
@@ -235,7 +236,7 @@ HEADER STYLES
 	margin: 0px;
 	color: $text-color;
 		&:hover {
-			color:lighten($text-color,20%);
+			color:lighten($text-color,10%);
 		}
 }	
 
@@ -337,7 +338,7 @@ POSTS & CONTENT STYLES
 			border: 1px solid $border-color;
 
 			header {
-				padding: 1.3em;
+				padding: 1.3em 0em 0em 1.3em;
 			}
 
 			footer {
@@ -668,7 +669,6 @@ input[type="text"], select, textarea, .field {
 	width: 100%;
 	max-width: 400px;
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color: $gold;
 	-webkit-transition: background-color 0.24s ease-in-out;
 	transition: background-color 0.24s ease-in-out;
 }

@@ -12,6 +12,12 @@ For more info, check out the codex:
 http://codex.wordpress.org/Creating_Admin_Themes
 
 ******************************************************************/
+body.login {
+  background-color: black; }
+
+#login {
+  background-color: black; }
+
 /* the form box */
 /*
 This is the Wordpress logo in the admin area.
