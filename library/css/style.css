@@ -1504,13 +1504,13 @@ HEADER STYLES
   text-decoration: none;
   font-size: 1em;
   margin: 0px;
-  color: #cdd3db; }
+  color: white; }
   #description a:hover {
     color: #929eb0; }
 
 #masthead {
   max-height: 66px;
-  background-color: #4b4b4b; }
+  background-color: #404040; }
   #masthead ul {
     padding-right: 25px;
     text-align: right;
@@ -1956,7 +1956,9 @@ you can add resource intensive styles.
     text-decoration: none;
     font-size: 1.75em;
     margin: 0px;
-    color: #5c6b80; }
+    color: white; }
+    #description a:hover {
+      color: #929eb0; }
 
   /*********************
   NAVIGATION STYLES

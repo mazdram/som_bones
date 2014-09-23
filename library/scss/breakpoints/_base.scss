@@ -239,7 +239,7 @@ HEADER STYLES
 	text-decoration: none;
 	font-size: 1em;
 	margin: 0px;
-	color:lighten($text-color,40%);
+	color:lighten($text-color,80%);
 		&:hover {
 			color:lighten($text-color,20%);
 		}
@@ -247,7 +247,7 @@ HEADER STYLES
 
 #masthead {
 max-height: 66px;
-background-color: lighten($black,10%);
+background-color: lighten($black,6%);
 
 ul {padding-right: 25px;text-align: right;	margin:0;
 

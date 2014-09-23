@@ -45,8 +45,12 @@ HEADER STYLES
 	text-decoration: none;
 	font-size: 1.75em;
 	margin: 0px;
-	color: #5c6b80;
+	color:lighten($text-color,80%);
+		&:hover {
+			color:lighten($text-color,20%);
+		}
 }	
+
 
 /*********************
 NAVIGATION STYLES

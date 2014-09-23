@@ -274,7 +274,9 @@ HEADER STYLES
   text-decoration: none;
   font-size: 1.75em;
   margin: 0px;
-  color: #5c6b80; }
+  color: white; }
+  #description a:hover {
+    color: #929eb0; }
 
 /*********************
 NAVIGATION STYLES
