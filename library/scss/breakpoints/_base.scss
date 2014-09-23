@@ -58,7 +58,7 @@ body {
     list-style: none;
     margin: 10px 0;
     overflow: hidden;
-    padding-left: 1.3em;
+    padding-left: 1.5em;
     li {
         float: left;
         margin-right: 10px;
@@ -147,10 +147,12 @@ LINK STYLES
 
 a, a:visited {
 	color: $link-color;
+	text-decoration:underline;
 
 	/* on hover */
 	&:hover, &:focus {
 		color: $link-hover;
+		text-decoration: none;
 	}
 
 	/* on click */
@@ -223,12 +225,15 @@ HEADER STYLES
 }
 
 	#logo {
-		margin: 0.75em 0;
+		width:200px;
 
 		a {
 			color: $white;
 		}
 	}
+#logowrap {
+			margin-top: 1.2em;
+		}	
 
 #description a {
 	text-decoration: none;
@@ -386,7 +391,7 @@ POSTS & CONTENT STYLES
 
 		/* entry content */
 		.entry-content {
-			padding: 1.5em 1.5em 0;
+			padding: 0em 1.5em 0;
 
 			p {
 				margin: 0 0 1.5em;

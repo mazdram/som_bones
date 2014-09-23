@@ -934,9 +934,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     top: 1px; }
 
 /*
-An example button.
-You can use this example if you want. Just replace all the variables
-and it will create a button dependant on those variables.
+Gold MU Buttons
 */
 .gold-btn {
   background-color: #e8a515; }
@@ -946,7 +944,7 @@ and it will create a button dependant on those variables.
     background-color: #d19413; }
 
 /*
-Transformer tabs experiment
+Mobile tab solution - added 9/23/04
 */
 .transformer-tabs ul {
   list-style: none;
@@ -958,17 +956,17 @@ Transformer tabs experiment
   padding: 0;
   vertical-align: bottom; }
   .transformer-tabs li:nth-child(1) .active {
-    color: white;
-    border-bottom-color: #ffffff; }
+    color: #666666;
+    border-bottom-color: #eeb742; }
   .transformer-tabs li:nth-child(2) .active {
-    color: white;
-    border-bottom-color: #ffffff; }
+    color: #666666;
+    border-bottom-color: #eeb742; }
   .transformer-tabs li:nth-child(3) .active {
-    color: white;
-    border-bottom-color: #ffffff; }
+    color: #666666;
+    border-bottom-color: #eeb742; }
   .transformer-tabs li:nth-child(4) .active {
-    color: #df7c72;
-    border-bottom-color: #c0392b; }
+    color: #666666;
+    border-bottom-color: #eeb742; }
 .transformer-tabs a {
   display: inline-block;
   color: white;
@@ -1012,7 +1010,7 @@ Transformer tabs experiment
 
 .tabs > div {
   display: none;
-  padding: 1rem; }
+  padding: 0rem; }
   .tabs > div:nth-of-type(1) {
     background: #ffffff; }
   .tabs > div:nth-of-type(2) {
@@ -1361,7 +1359,7 @@ body {
   list-style: none;
   margin: 10px 0;
   overflow: hidden;
-  padding-left: 1.3em; }
+  padding-left: 1.5em; }
   .breadcrumbs li {
     float: left;
     margin-right: 10px;
@@ -1436,12 +1434,14 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #03c;
+  color: #5c6b80;
+  text-decoration: underline;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #00289e; }
+    color: #a2730f;
+    text-decoration: none; }
   a:link, a:visited:link {
     /*
     this highlights links on iPhones/iPads.
@@ -1490,12 +1490,15 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #323944; }
+  background-color: #313131; }
 
 #logo {
-  margin: 0.75em 0; }
+  width: 200px; }
   #logo a {
     color: #fff; }
+
+#logowrap {
+  margin-top: 1.2em; }
 
 #description a {
   text-decoration: none;
@@ -1586,7 +1589,7 @@ POSTS & CONTENT STYLES
 
 /* entry content */
 .entry-content {
-  padding: 1.5em 1.5em 0;
+  padding: 0em 1.5em 0;
   /*
   image alignment on a screen this size may be
   a bit difficult. It's set to start aligning
@@ -1643,7 +1646,7 @@ POSTS & CONTENT STYLES
     max-width: 100%;
     height: auto; }
   .entry-content pre {
-    background: #323944;
+    background: #313131;
     color: #f8f9fa;
     font-size: 0.9em;
     padding: 1.5em;
@@ -1776,7 +1779,7 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
+  background-color: #313131;
   color: #f8f9fa; }
 
 /*
@@ -1932,7 +1935,7 @@ you can add resource intensive styles.
     /* highlight current page */
     /* end current highlighters */ }
     .nav ul {
-      background: #323944;
+      background: #313131;
       margin-top: 0; }
     .nav li {
       float: left;
