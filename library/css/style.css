@@ -1334,7 +1334,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #5c6b80;
-  background-color: #eaedf2;
+  background-color: #fff;
   -webkit-font-smoothing: antialiased; }
 
 /* Breakout w/o image placed outside the wrapper */
@@ -1576,8 +1576,7 @@ POSTS & CONTENT STYLES
 .hentry {
   background-color: #fff;
   border-radius: 3px;
-  margin-bottom: 1.5em;
-  border: 1px solid #ccc; }
+  margin-bottom: 1.5em; }
   .hentry header {
     padding: 1.3em 0em 0em 1.3em; }
   .hentry footer {
@@ -1817,6 +1816,10 @@ view.
     color: #eeb742; }
 
 /* SOCIAL LINKS */
+.social {
+  width: 400px;
+  margin: 0 auto; }
+
 ul.social-links li {
   list-style: none;
   display: block;
@@ -1826,7 +1829,7 @@ ul.social-links li {
     display: block;
     float: right;
     width: 65px;
-    height: 65px;
+    height: 45px;
     text-indent: -9999px; }
 
 /* Add more icons here*/

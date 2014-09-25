@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $white;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -365,7 +365,6 @@ POSTS & CONTENT STYLES
 			background-color: $white;
 			border-radius: 3px;
 			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
 
 			header {
 				padding: 1.3em 0em 0em 1.3em;
@@ -778,8 +777,14 @@ FOOTER STYLES
 	}
 
 /* SOCIAL LINKS */
+
+.social {
+	width:400px;
+	margin: 0 auto;
+}
+
 ul.social-links li {list-style:none;@include center-block;
-	a {display:block;float:right;width:65px;height:65px; text-indent:-9999px;
+	a {display:block;float:right;width:65px;height:45px; text-indent:-9999px;
 	}
 }
 /* Add more icons here*/
