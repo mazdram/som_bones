@@ -59,6 +59,7 @@ body {
     margin: 10px 0;
     overflow: hidden;
     padding-left: 1.5em;
+    visibility: hidden;
     li {
         float: left;
         margin-right: 10px;
@@ -77,9 +78,7 @@ body {
 }
 
 
-.breadcrumb_wrp {
-			   padding-left:2em;
-     	}
+
 
  /* Drop cap */
 .dropcap { 
@@ -260,15 +259,16 @@ li {
 		a {text-decoration: none;
 			color:lighten($text-color,80%);
 				&:hover {
-					color:$gold;
+					color:lighten($gold,90%);
 				}
 
 			}	
 		}
 	}
 }
-#active a {
-				color:$gold;
+
+.active-mh {
+		color:$gold;
 			}
 /*********************
 NAVIGATION STYLES
@@ -770,11 +770,16 @@ FOOTER STYLES
 	} /* end .footer-links */
 
 
-	.copyright {}
+	.copyright {font-size: .8em;
+		a {
+			color: $gold;
+		}
+
+	}
 
 /* SOCIAL LINKS */
 ul.social-links li {list-style:none;@include center-block;
-	a {display:block;float:right;width:65px;height:65px; text-indent:-999px;
+	a {display:block;float:right;width:65px;height:65px; text-indent:-9999px;
 	}
 }
 /* Add more icons here*/

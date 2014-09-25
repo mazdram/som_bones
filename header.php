@@ -44,12 +44,14 @@
 		<div id="container">
 
 			<header class="header" role="banner">
-<div id="masthead" class="m-all t-all d-all cf">
+				
+				<div id="masthead" class="m-all t-all d-all cf">
 					<ul>
-						<li id="active"><a href="#">MU School of Medicine</a></li>
+						<li><a href="#"><span class="active-mh">MU School of Medicine</span></a></li>
 						<li><a href="#">MU Health Care</a></li>
 					</ul>
 				</div>
+				
 				<div id="inner-header" class="wrap cf">
  					
 				

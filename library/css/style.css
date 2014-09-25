@@ -1359,7 +1359,8 @@ body {
   list-style: none;
   margin: 10px 0;
   overflow: hidden;
-  padding-left: 1.5em; }
+  padding-left: 1.5em;
+  visibility: hidden; }
   .breadcrumbs li {
     float: left;
     margin-right: 10px;
@@ -1371,9 +1372,6 @@ body {
         color: #b98311; }
     .breadcrumbs li separator {
       font-size: .9em; }
-
-.breadcrumb_wrp {
-  padding-left: 2em; }
 
 /* Drop cap */
 .dropcap {
@@ -1524,9 +1522,9 @@ HEADER STYLES
         text-decoration: none;
         color: white; }
         #masthead ul li a:hover {
-          color: #eeb742; }
+          color: white; }
 
-#active a {
+.active-mh {
   color: #eeb742; }
 
 /*********************
@@ -1813,6 +1811,11 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+.copyright {
+  font-size: .8em; }
+  .copyright a {
+    color: #eeb742; }
+
 /* SOCIAL LINKS */
 ul.social-links li {
   list-style: none;
@@ -1824,7 +1827,7 @@ ul.social-links li {
     float: right;
     width: 65px;
     height: 65px;
-    text-indent: -999px; }
+    text-indent: -9999px; }
 
 /* Add more icons here*/
 .twitter {
