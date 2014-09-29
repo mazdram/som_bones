@@ -238,9 +238,9 @@ HEADER STYLES
 	text-decoration: none;
 	font-size: 1em;
 	margin: 0px;
-	color:lighten($text-color,80%);
+	color:lighten($text-color,10%);
 		&:hover {
-			color:lighten($text-color,20%);
+			color:lighten($text-color,10%);
 		}
 }	
 
@@ -666,41 +666,31 @@ PAGE NAVI STYLES
 	} /* end .wp-prev-next */
 
 /******************************************************************
-SEARCH STYLES
+FACULTY STYLES
 ******************************************************************/
-.widget_search .screen-reader-text {
-    display:none;
-}
 
-.widget_search {
-    position:relative;
-    background: url("search_widget_image_url.jpg") top left no-repeat;  
-    height:40px;
-    width:180px;
-}
- 
-.widget_search #s {
-    position:absolute;
-    top:30px;
-}
 
-input[type="text"], select, textarea, .field {
-	display: block;
-	height: 30px;
-	line-height: 40px;
-	padding: 0 12px;
-	margin-bottom: 14px;
-	font-size: 1em;
-	color: #5c6b80;
-	vertical-align: middle;
-	box-shadow: none;
-	border: 0;
-	width: 100%;
-	max-width: 400px;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	-webkit-transition: background-color 0.24s ease-in-out;
-	transition: background-color 0.24s ease-in-out;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*********************
 SIDEBARS & ASIDES
 *********************/

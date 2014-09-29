@@ -3,7 +3,7 @@
 				<div id="inner-footer" class="wrap cf">
 
 
-
+<!--
 					<div class="m-all t-all d-all cf" >
 		<div class="social">		
 <ul class="social-links cf">
@@ -13,7 +13,7 @@
 </ul>
 </div>
 
-
+-->
 				<nav class="m-1of2 t-1of4 d-1of5 cf">
 					<ol>
 					<li>Home</li>	
