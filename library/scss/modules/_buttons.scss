@@ -80,7 +80,7 @@ Mobile tab solution - added 9/23/04
   ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 13px 0 0 0;
     border-bottom: 3px solid white;
   }
   li {
@@ -88,25 +88,25 @@ Mobile tab solution - added 9/23/04
     padding: 0;
     vertical-align: bottom;
     &:nth-child(1) .active {
-      color: lighten(#666, 0%);
+      color: lighten(#666, 10%);
       border-bottom-color: $gold;
     }
     &:nth-child(2) .active {
-      color: lighten(#666, 0%);
+      color: lighten(#666, 10%);
       border-bottom-color: $gold;
     }
     &:nth-child(3) .active {
-      color: lighten(#666, 0%);
+      color: lighten(#666, 10%);
       border-bottom-color: $gold;
     }
     &:nth-child(4) .active {
-      color: lighten(#666, 0%);
+      color: lighten(#666, 10%); 
       border-bottom-color: $gold;
     }
   }
   a {
     display: inline-block;
-    color: white;
+    color: $gold;
     text-decoration: none;
     padding: 0.5rem;
     &.active {
@@ -120,11 +120,12 @@ Mobile tab solution - added 9/23/04
       border-bottom: 0;
       overflow: hidden;
       position: relative;
-      background: #666; /* fallback */
+      background: #dedede; /* fallback */
       background: $gold;
       &::after {
         content: "☰";
         position: absolute;
+        color: #666;
         top: 8px;
         right: 15px;
         z-index: 2;
@@ -149,7 +150,7 @@ Mobile tab solution - added 9/23/04
       &.active {
         border: 0;
         z-index: 1;
-        background: #666; /* fallback */
+        background: lighten($gold,5%); /* fallback */
       }
     }
   }

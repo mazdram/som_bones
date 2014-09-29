@@ -949,27 +949,27 @@ Mobile tab solution - added 9/23/04
 .transformer-tabs ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 13px 0 0 0;
   border-bottom: 3px solid white; }
 .transformer-tabs li {
   display: inline-block;
   padding: 0;
   vertical-align: bottom; }
   .transformer-tabs li:nth-child(1) .active {
-    color: #666666;
+    color: gray;
     border-bottom-color: #eeb742; }
   .transformer-tabs li:nth-child(2) .active {
-    color: #666666;
+    color: gray;
     border-bottom-color: #eeb742; }
   .transformer-tabs li:nth-child(3) .active {
-    color: #666666;
+    color: gray;
     border-bottom-color: #eeb742; }
   .transformer-tabs li:nth-child(4) .active {
-    color: #666666;
+    color: gray;
     border-bottom-color: #eeb742; }
 .transformer-tabs a {
   display: inline-block;
-  color: white;
+  color: #eeb742;
   text-decoration: none;
   padding: 0.5rem; }
   .transformer-tabs a.active {
@@ -981,12 +981,13 @@ Mobile tab solution - added 9/23/04
     border-bottom: 0;
     overflow: hidden;
     position: relative;
-    background: #666;
+    background: #dedede;
     /* fallback */
     background: #eeb742; }
     .transformer-tabs ul::after {
       content: "☰";
       position: absolute;
+      color: #666;
       top: 8px;
       right: 15px;
       z-index: 2;
@@ -1005,7 +1006,7 @@ Mobile tab solution - added 9/23/04
     .transformer-tabs a.active {
       border: 0;
       z-index: 1;
-      background: #666;
+      background: #f0c059;
       /* fallback */ } }
 
 .tabs > div {
